@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>La série de Louna</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@450;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="rb">
+    <header>
+        <div class="logo">LounaCine</div>
+        <nav>
+        <a href="#">Accueil</a>
+        <a href="#">Saisons</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+        <h1>La série de Louna</h1>
+        <button onclick="document.querySelector('.season:nth-child(1) .episode-card').scrollIntoView({behavior:'smooth'})">
+            Regarder Saison 1 ▶
+        </button>
+        </div>
+    </section>
+    
+    
+    <main>
+    
+    <!-- SAISON 1 -->
+    <div class="season">
+        <div class="season-header"><h2>Saison 1</h2></div>
+        <div class="episode-row">
+            <div class="episode-card" onclick="openPlayer('Épisode 1', 'https://proxy.iv-cloud.xyz/api/sexeatomique.m3u8?maximilien=Z0FBQUFBQm9rNnRvWVZ4Q3BhajBBME1nbkdKVTdUbVdaN2dqaEZ0MHY3dW5SbGU0Y2tEZUNWZkp2TzBRMEZjeFpvX1QwNFRzM3RKM2x2QnQySktGZDlFRDJoOXotbURoMDNKLU1ab1diTENjcUpyN2xEWGs2ejJudHlSalRmU2pxcGhzamREUGRqUDNXZkszOVRrajhOdU5FZEs3eEJpcnpZdEhUTDdfaDlZaUFTMkZCRy1GV0pNOEZON1JPMXhzcWxOdG1yUVBrenB4VWRaRzJ4WmRjWGs1SUVJMkNva01mNS1qVUFHREVCM3lDNm9XSU9pcS03dy1zeEZSbUJ2UG9NZHgtcmpoSHU1RUVvS2Qxc0pVcmxGYzBISjYxNnhvMWtfRE1QSG5TTUVnbTU3ZmJTTlJ6bm5MOUtSVFRZWEJHSGpRZ0lBRElLelNGS0ZKbDBBRDFlOVJycVAzN0FDTkxZZzNZQmdvNTN5M3hFVVprR3p1R2xwSEJUWXNkM0tHbzBDdGRLZmtFWnJ3VlpfWjNHbFI3RjVBSjFsdWxYZVNSdWZxWVAzU0ZMWWlrTVN2empGckdVNi1vVjIzeFlEbVVDdFFiMWpxelkzQ1VfSHhEQzhnMnJNNVhEdDl4WDg4M1hjX0UwdjJOeVdQYzJIN1Z0RW80UHVNZUJiaHJMbU8zSzF0NW5HRXI2Wmc=')">
+            <div class="episode-thumb" style="background-image: url('previews/s1e1.jpg');"></div>
+            <div class="episode-info"><h3>Épisode 1</h3><span>45 min</span></div>
+            </div>
+            <div class="episode-card" onclick="openPlayer('Épisode 2', 'https://proxy.iv-cloud.xyz/api/sexeatomique.m3u8?maximilien=Z0FBQUFBQm9rNndiemxIMmwwT3Z3d2JVa0NIaE9BQW9WdS1weURnNkQyeWtMM3RLVWpPTGNNNlhUa0pHbkcweGhzd1YzaUhqT1lZU0dMXzRjWUpXVXdPR3VISXpvWlZNc0Z5N0JsSFZsRjhmLU5UMEtLMVlkc1BTUUtJR2F2M01veFJIcllmTkVKZVFZbV9jWlRDb3RzRW0yQzZXbjVNVnMwdEdSRDhQdVBUZWo1U0JaUDFTTW91bmgzZTVUekNLd3J5Q3RxeXlWbFZFY2hINHhXWHVURy1Sam4wbmNDQzZoUXlJZHZGTlFOWUtBQkIwUzR2RHVYOTFSck4zbTQ4LXJfUlNwYTFLd0VPNkJHcy1nc25CWHd2ODI4bHdSLUFqVERVSExFZjRpQ1dDX3pXcllsZHpRdzBrU2JsVmVGdnRJQy1CYzEyZVhXSUt4MzI2TkZzWE9JeU9qbWQyRUstUXZvZzFvdERZTTd2LUctdkZkdmRxTEw2bzNfZ0t3Uy1wSlBwempmLTgzcWdDb1dCcVFVODZNMXM0dkt1U3E0OW4xX0pVQlNmam9NWjVNZjRuekZjcHRod3hSQmVOV3MwS2JJa0NNMmdWemlpbFdhZnhYMzk3ZHBzSmNCNm1mOEJZTHpJYjFxY2pYcXRtNTBOREU4Tmp3SWtfVkEwTG5XYm81ZEE0OWllZ20zZl8=')">
+            <div class="episode-thumb" style="background-image: url('previews/s1e2.jpg');"></div>
+            <div class="episode-info"><h3>Épisode 2</h3><span>45 min</span></div>
+            </div>
+            <div class="episode-card" onclick="openPlayer('Épisode 3', 'https://proxy.iv-cloud.xyz/api/sexeatomique.m3u8?maximilien=Z0FBQUFBQm9rNjZlNGc1V2U3ZGZ5a1FUclM0SEtZZjZ1amtWRDB0Q1Q4QjZvSFYzQWlBS09COC1MRXIzbWZ3ZE52aDNzczczTEhQYzFoemFqeXdJdGVUbWJwSDkydDZjaFhtWHRLQWpzMFZFTFY0MGdrOW5XV0s1c1FGa3pDV0FJYjQ1blRrWHMxaHJkekp4eDJzN3luZ3M5YmszX1M4T1hoSHUwRWJFNHo1YWwyeWh4UUoya3l6LUFSYVk2OEZ6WEJfdm1JT0VmZXBPai1xLXpXa01Cejdfbm9pTFJQY0NQMEdtbEtRTFgtbUo0ZDBxcGpUTGNsaS1IMXF6cXhTZEl1cTlVN3MyNC13Nkh1SkFGYkxRdEc2bVBJSmIyMV9Hc2o0MWkyQ0pIcGp2clgtVG9vMlhBM3htQlMyUXVxbDJRTzJjTFNOdjRQU3o5Wmx1bEkwRk5VU3ItNFgySDZxOGZVNkh2c0V5ZDFrcC1KeUZqTW5zZy12ZlVxMksxaWJ0RTFhaExmdWhYUHFvZ3Rla3pOYXVLWWZUZjlzeUpfYU9jWThoemxpVk5aZnd4NkVscEt3eTNUbjRRQ01seWlENE1yMnRvMklwX0Y4N3Fpa2JCVXhJSG9vSHBCVWhfOHpHcmRSUjhGdTNuTXhnX1F1dGZyQm9lZUxkeGh5M1VKZHQ2QzRsRnBEeDk2NWQ=')">
+            <div class="episode-thumb" style="background-image: url('previews/s1e3.jpg');"></div>
+            <div class="episode-info"><h3>Épisode 3</h3><span>45 min</span></div>
+            </div>
+            <div class="episode-card" onclick="openPlayer('Épisode 4', 'https://dl30.topstrime.online/hls2/10/00549/,pmeatkmnye3s_x,lang/fre/pmeatkmnye3s_fre,.urlset/master.m3u8?t=gOiGDCmQ0QMecF2Pzl_3Qyhx7dZFXVU1w6iTi59Cekw&s=1754508683&e=43200&f=2746198&i=0.0&sp=0&fr=pmeatkmnye3s')">
+            <div class="episode-thumb" style="background-image: url('previews/s1e4.jpg');"></div>
+            <div class="episode-info"><h3>Épisode 4</h3><span>45 min</span></div>
+            </div>
+            <div class="episode-card" onclick="openPlayer('Épisode 5', '')">
+            <div class="episode-thumb" style="background-image: url('previews/s1e5.jpg');"></div>
+            <div class="episode-info"><h3>Épisode 5</h3><span>45 min</span></div>
+            </div>
+            <div class="episode-card" onclick="openPlayer('Épisode 6', '')">
+            <div class="episode-thumb" style="background-image: url('previews/s1e6.jpg');"></div>
+            <div class="episode-info"><h3>Épisode 6</h3><span>45 min</span></div>
+            </div>
+            <div class="episode-card" onclick="openPlayer('Épisode 7', '')">
+            <div class="episode-thumb" style="background-image: url('previews/s1e7.jpg');"></div>
+            <div class="episode-info"><h3>Épisode 7</h3><span>45 min</span></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SAISON 2 -->
+    <div class="season">
+        <div class="season-header"><h2>Saison 2</h2></div>
+        <div class="episode-row">
+            <div class="episode-card" onclick="openPlayer('Épisode 1', '')">
+            <div class="episode-thumb" style="background-image: url('previews/s2e1.jpg');"></div>
+            <div class="episode-info"><h3>Épisode 1</h3><span>45 min</span></div>
+            </div>
+            <div class="episode-card" onclick="openPlayer('Épisode 2', '')">
+            <div class="episode-thumb" style="background-image: url('previews/s2e2.jpg');"></div>
+            <div class="episode-info"><h3>Épisode 2</h3><span>45 min</span></div>
+            </div>
+            <div class="episode-card" onclick="openPlayer('Épisode 3', '')">
+            <div class="episode-thumb" style="background-image: url('previews/s2e3.jpg');"></div>
+            <div class="episode-info"><h3>Épisode 3</h3><span>45 min</span></div>
+            </div>
+            <div class="episode-card" onclick="openPlayer('Épisode 4', '')">
+            <div class="episode-thumb" style="background-image: url('previews/s2e4.jpg');"></div>
+            <div class="episode-info"><h3>Épisode 4</h3><span>45 min</span></div>
+            </div>
+            <div class="episode-card" onclick="openPlayer('Épisode 5', '')">
+            <div class="episode-thumb" style="background-image: url('previews/s2e5.jpg');"></div>
+            <div class="episode-info"><h3>Épisode 5</h3><span>45 min</span></div>
+            </div>
+            <div class="episode-card" onclick="openPlayer('Épisode 6', '')">
+            <div class="episode-thumb" style="background-image: url('previews/s2e6.jpg');"></div>
+            <div class="episode-info"><h3>Épisode 6</h3><span>45 min</span></div>
+            </div>
+            <div class="episode-card" onclick="openPlayer('Épisode 7', '')">
+            <div class="episode-thumb" style="background-image: url('previews/s2e7.jpg');"></div>
+            <div class="episode-info"><h3>Épisode 7</h3><span>45 min</span></div>
+            </div>
+            <div class="episode-card" onclick="openPlayer('Épisode 8', '')">
+            <div class="episode-thumb" style="background-image: url('previews/s2e8.jpg');"></div>
+            <div class="episode-info"><h3>Épisode 8</h3><span>45 min</span></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SAISON 3 -->
+    <div class="season">
+        <div class="season-header"><h2>Saison 3</h2></div>
+        <div class="episode-row">
+            <div class="episode-card" onclick="openPlayer('Épisode 1', '')">
+            <div class="episode-thumb" style="background-image: url('previews/s3e1.jpg');"></div>
+            <div class="episode-info"><h3>Épisode 1</h3><span>45 min</span></div>
+            </div>
+            <div class="episode-card" onclick="openPlayer('Épisode 2', '')">
+            <div class="episode-thumb" style="background-image: url('previews/s3e2.jpg');"></div>
+            <div class="episode-info"><h3>Épisode 2</h3><span>45 min</span></div>
+            </div>
+            <div class="episode-card" onclick="openPlayer('Épisode 3', '')">
+            <div class="episode-thumb" style="background-image: url('previews/s3e3.jpg');"></div>
+            <div class="episode-info"><h3>Épisode 3</h3><span>45 min</span></div>
+            </div>
+            <div class="episode-card" onclick="openPlayer('Épisode 4', '')">
+            <div class="episode-thumb" style="background-image: url('previews/s3e4.jpg');"></div>
+            <div class="episode-info"><h3>Épisode 4</h3><span>45 min</span></div>
+            </div>
+        </div>
+    </div>
+
+    </main>
+
+    <div id="player-overlay">
+        <div id="player-header">
+        <span id="video-title"></span>
+        <button id="close-btn" onclick="closePlayer()">×</button>
+        </div>
+        <video id="video-player" controls crossorigin="anonymous"></video>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="script.js"></script>
+</body>
+</html>
